@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AbilitiesComponent } from './abilities.component';
+import { AbilitiesRoutingModule } from './abilities-routing.module';
 
 
 
@@ -9,7 +10,8 @@ import { AbilitiesComponent } from './abilities.component';
     AbilitiesComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    AbilitiesRoutingModule
   ]
 })
 export class AbilitiesModule { }
