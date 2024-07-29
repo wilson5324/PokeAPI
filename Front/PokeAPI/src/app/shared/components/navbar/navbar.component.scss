@@ -5,15 +5,17 @@ menu {
     justify-content: space-between;
     align-items: center;
     margin: 0;
-
+    font-size: 20px;
+    position: sticky;
+    top: 0;
     .links {
         width: 30%;
         display: flex;
         justify-content: space-around;
         font-weight: bold;
+        font-size: 14px;
     }
-
-    
+    border-bottom: solid #035770 2px;
 }
 
 a {

@@ -1,0 +1,14 @@
+<section class="banner">
+    <div class="banner-text">
+        <h2>{{title}}</h2>
+        <p>{{description}}</p>
+        <div class="tags">
+            <a *ngFor="let item of tags; let i = index" target="_blank" href="{{tagsUrl[i]}}">
+                <span>{{item}}</span>
+            </a>
+        </div>
+    </div>
+    <div  class="banner-img">
+        <img src="{{urlImg}}" alt="">
+    </div>
+</section>
